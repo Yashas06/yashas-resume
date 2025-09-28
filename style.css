@@ -1,0 +1,141 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+
+.section-alt {
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    font-weight: 700;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+/* Navigation */
+.navbar {
+    background-color: rgba(33, 37, 41, 0.95);
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+/* Hero Section */
+.hero-section {
+    padding-top: 100px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2);
+}
+
+/* Buttons */
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.3s linear;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(3px,3px,15px,0.2);
+}
+
+.card__body {
+    padding: 16px;
+}
+
+/* Skills */
+.skill-tag {
+    display: inline-block;
+    background-color: #e9ecef;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin: 5px 5px 5px 0;
+    font-size: 14px;
+    color: #212529;
+}
+
+/* Timeline */
+.timeline-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 32px;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+}
+
+/* Projects */
+.project-image {
+    height: 200px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0 0;
+    color: #0d6efd;
+}
+
+/* Certifications */
+.cert-icon {
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.contact-item i {
+    color: #0d6efd;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.social-link:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0px;
+}
